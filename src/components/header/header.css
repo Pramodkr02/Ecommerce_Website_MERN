@@ -1,0 +1,142 @@
+.Logo1 {
+  height: 71px;
+  position: relative;
+  margin: -20px;
+  padding-left: 10px;
+  padding-right: 20px;
+  cursor: pointer;
+  width: 290px;
+}
+.Header-Nav .logo-header span {
+  font-weight: 600;
+  padding-right: 15px;
+  font-size: 40px;
+}
+
+.Header-Nav {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+  height: 70px;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 550px;
+  background-color: white;
+  border: 1px solid #480ca8;
+  border-radius: 30px;
+  padding-right: 20px;
+}
+.selectbar {
+  height: 50px;
+  border-radius: 30px;
+  background-color: #415a77;
+  border: 1px solid #480ca8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.InputSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  width: 60%;
+  margin-left: -6px;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  color: #415a77;
+}
+
+.SearchIcon {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.YourLocation {
+  height: 50px;
+  width: 175px;
+  /* border: 1px solid red; */
+  border-radius: 30px;
+  margin-left: 30px;
+  text-align: center;
+  padding-top: 11px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+  cursor: pointer;
+}
+
+.headerTabs .navItems {
+  list-style: none;
+  display: flex;
+  padding-left: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.headerTabs {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  width: 500px;
+  text-align: center;
+  padding-top: 19px;
+
+  /* padding: 40px; */
+  padding-right: 40px;
+}
+
+.headerTabs .navItems li {
+  padding: 5px;
+}
+
+.YourLocation .YLocation {
+  padding: 12px;
+}
+.navItems-list {
+  padding-left: 10px;
+}
+.navIcon {
+  margin-top: 5px;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 70px;
+  right: 1px;
+  width: 178px;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+  z-index: 100;
+}
+
+.dropdownMenu li {
+  list-style: none;
+  width: 100%;
+  margin-left: -27px;
+  text-align: left;
+  font-weight: 500;
+}
+.dropdownMenu .navItems-list {
+  padding-left: 13px;
+}
+
+.dropdownMenu li:hover {
+  background: #48cae4;
+  margin-right: 0.025px;
+  color: #9f86c0;
+  /* transition: margin-left 0.2s ease; */
+  border-radius: 7px;
+}

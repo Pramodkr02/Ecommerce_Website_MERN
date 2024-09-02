@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  height: 55vh;
+  max-width: 1534px;
+  background-color: blueviolet;
+}
+
+.container .swiper {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.slide1 {
+  background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/b76bba648130afc4.jpeg?q=20");
+}
+.slide2 {
+  background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/b76bba648130afc4.jpeg?q=20");
+}
+.slide3 {
+  background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/b76bba648130afc4.jpeg?q=20");
+}
+.slide4 {
+  background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/b76bba648130afc4.jpeg?q=20");
+}
+.slide5 {
+  background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/b76bba648130afc4.jpeg?q=20");
+}
+.slide6 {
+  background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/b76bba648130afc4.jpeg?q=20");
+}
+.swiper-button-next:after {
+  content: "\f138" !important;
+  font-family: fontAwesome !important;
+  font-weight: bold;
+}
+.swiper-button-prev:after {
+  content: "\f137" !important;
+  font-family: fontAwesome !important;
+  font-weight: bold;
+}

@@ -1,0 +1,148 @@
+.NavBar {
+  width: 100%;
+  height: 65px;
+  margin: auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  /* justify-content: space-between; */
+  padding-left: 25px;
+  padding-right: 70px;
+}
+
+.navRight {
+  padding-top: 10px;
+}
+
+.navRight button {
+  background-color: #4361ee;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.bAllc {
+  font-weight: 500;
+  /* padding-left: 8px;
+  padding-right: 8px; */
+  padding: 8px;
+  color: azure;
+  justify-content: space-between;
+  align-items: center;
+}
+.broAllC {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.navCenter-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.navCenter-item li {
+  color: #343a40;
+  padding: 19px;
+  text-decoration: none;
+  font-weight: 500;
+  padding-left: 30px;
+  list-style: none;
+  cursor: pointer;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  z-index: 1000;
+}
+.De-als {
+  padding-left: 6px;
+}
+.fire {
+  padding-bottom: 6px;
+  font-size: 25px;
+}
+.phNo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 133px;
+  padding-top: 15px;
+}
+
+.cust-supp {
+  font-size: 12px;
+  font-weight: 500;
+  padding-bottom: 7px;
+}
+.ph-No p {
+  padding: 0px;
+  font-size: 18px;
+  margin-top: 5px;
+  color: #343a40;
+  font-weight: bold;
+}
+.ph-No {
+  padding-left: 6px;
+}
+.head-phone {
+  font-size: 37px;
+  padding-right: 5px;
+  padding-bottom: 7px;
+}
+
+.drop-down-menu {
+  position: absolute;
+  width: 175px;
+  position: absolute;
+  top: 129px;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+}
+
+.drop-down-menu-list li {
+  list-style-type: none;
+  text-align: start;
+  padding: 5px;
+  margin-left: -22px;
+  z-index: 1000;
+}
+
+.drop-down-menu-list a {
+  display: block;
+  width: 100%;
+}
+.drop-down-menu-list a button {
+  width: 100%;
+  justify-content: flex-start !important;
+  border-radius: 0px !important;
+  color: black;
+  font-weight: 600;
+  text-transform: capitalize;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.drop-down-menu-list li:hover {
+  background: #f1f1f1;
+  margin-right: 0.025px;
+  color: #9f86c0;
+  /* transition: margin-left 0.2s ease; */
+  border-radius: 7px;
+}
+.mega-menu-item {
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: auto;
+  width: 1090px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+  top: 130px;
+  left: 25px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+}
+.mega-items li {
+  padding: 2px;
+}

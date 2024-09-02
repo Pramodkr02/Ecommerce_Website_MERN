@@ -1,0 +1,73 @@
+footer {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  background: #fff;
+  padding: 35px 0px;
+  padding-left: 100px;
+}
+footer .topInfo {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 20px;
+}
+footer .topInfo .col {
+  padding: 15px 15px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  padding-left: 40px;
+}
+footer .topInfo .col:last-child {
+  border-right: 0px;
+}
+footer .topInfo .col svg {
+  font-size: 25px;
+}
+footer .topInfo .col span {
+  font-size: 15px;
+  font-weight: 600;
+}
+footer .linkWrap h5 {
+  font-size: 20px;
+}
+footer .linkWrap ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+footer .linkWrap ul li a {
+  color: #71778e;
+  text-decoration: none;
+  font-size: 14px;
+  position: relative;
+  transition: all 0.2sec ease-in-out;
+}
+footer .linkWrap ul li a:hover {
+  font-size: 15px;
+  color: #000;
+}
+.copyRight {
+  justify-content: space-between;
+  position: relative;
+}
+.copyRight .list {
+  position: absolute;
+  top: 10px;
+  right: 90px;
+}
+.copyRight ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.copyRight ul li a svg {
+  font: 28px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.copyRight ul li a:hover {
+  background: #2bbef9 !important;
+}
+.copyRight ul li a:hover svg {
+  color: #fff !important;
+}
