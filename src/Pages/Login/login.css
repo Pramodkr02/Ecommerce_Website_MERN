@@ -3,18 +3,70 @@
   justify-content: center;
   display: flex;
   align-items: center;
-  position: absolute;
+  height: 100vh;
 }
 
 .loginForm {
-  height: 60vh;
   width: 30%;
   position: relative;
-  top: 22%;
-  padding: 10px;
+  top: 50%;
+
+  padding: 20px;
+  border: 1px solid #ccc;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
 form {
   text-align: center;
+}
+.loginForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.loginForm button {
+  width: 100%;
+  padding: 8px;
+
+  color: #000000 !important;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #1486de !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.loginForm button:hover {
+  background-color: #133de3 !important;
+  color: white !important;
+}
+.loginForm .opt-rst-psrd {
+  display: flex;
+  justify-content: space-between;
+}
+.loginForm .dont-act a {
+  text-decoration: none;
+}
+.loginForm .dont-act {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.opt-rst-psrd a {
+  text-decoration: none;
+}
+.backToHome {
+  padding: 10px;
+}
+.backToHome a {
+  text-decoration: none;
+  font-size: 15px;
+}
+.checkbx {
+  display: flex;
+}
+.checkbx input {
+  font-size: 12px;
 }

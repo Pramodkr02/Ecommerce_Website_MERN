@@ -1,9 +1,8 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  height: 55vh;
+  height: 55vh !important;
   max-width: 1534px;
-  background-color: blueviolet;
 }
 
 .container .swiper {
