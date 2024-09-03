@@ -60,10 +60,10 @@ const NavBar = () => {
             <ImFire className="fire" />
             <span className="De-als">Deals</span>
           </li>
-          <li>Home</li>
-          <li>About</li>
-          <li>Shop</li>
-          <li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>Kid's</li>
+          {/* <li>
             <span className="mega-menu-res" onClick={MegaMenuRes}>
               Mega Menu
             </span>
@@ -101,8 +101,8 @@ const NavBar = () => {
                 </div>
               </div>
             )}
-          </li>
-          <li>Blog</li>
+          </li> */}
+          <li>Electronics</li>
           <ClickAwayListener onClickAway={handleClickAway}>
             <li className="page-res">
               <span onClick={PageOpenSelect}>Pages</span>
