@@ -70,3 +70,6 @@ form {
 .checkbx input {
   font-size: 12px;
 }
+.backToHome a:hover {
+  color: #000000;
+}

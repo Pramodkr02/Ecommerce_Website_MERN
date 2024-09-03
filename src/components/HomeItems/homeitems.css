@@ -1,19 +1,17 @@
 .HomeItems {
   width: 98.4%;
   margin: 0 auto;
-  height: 55vh;
-  background-color: aquamarine;
+  height: auto;
+
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
 }
 .HomeItems .homeItemLeft {
   width: 26%;
-  height: 50vh;
-  background-color: beige;
+  height: auto;
 }
 .HomeItems .homeItemRight {
   width: 73%;
   height: 50vh;
-  background-color: blueviolet;
 }

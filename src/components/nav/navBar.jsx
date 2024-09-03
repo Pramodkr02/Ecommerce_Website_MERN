@@ -116,7 +116,7 @@ const NavBar = () => {
                       </li>
                     ))} */}
                     <li>
-                      <Link>
+                      <Link to="/aboutus">
                         <Button>About Us</Button>
                       </Link>
                     </li>
@@ -136,12 +136,12 @@ const NavBar = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link>
+                      <Link to="/signup">
                         <Button>Resister</Button>
                       </Link>
                     </li>
                     <li>
-                      <Link>
+                      <Link to="/forgotpassword">
                         <Button>Forgot Password</Button>
                       </Link>
                     </li>

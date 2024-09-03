@@ -1,0 +1,21 @@
+.MegaSell {
+  width: 98.4%;
+  margin: 0 auto;
+  height: 550px;
+  margin-top: 10px;
+  display: block;
+  justify-content: space-between;
+}
+.MegaSell .megasellUp {
+  width: 100%;
+  height: 70px;
+  background-color: aqua;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+}
+.MegaSell .megasellUp h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}

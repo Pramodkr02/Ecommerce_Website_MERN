@@ -142,6 +142,8 @@
   left: 25px;
   padding: 20px;
   box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+  z-index: 999;
+  background-color: white;
 }
 .mega-items li {
   padding: 2px;

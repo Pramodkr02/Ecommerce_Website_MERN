@@ -7,6 +7,7 @@ import About from "./Pages/About/index";
 import Login from "./Pages/Login/login";
 import SignUp from "./Pages/SignUp/signup";
 import ForgotPassword from "./Pages/ForgotPassword/forgotpassword";
+import AboutUs from "./Pages/AboutUs/aboutus";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route exact={true} path="/about" element={<About />} />
           <Route exact={true} path="/login" element={<Login />} />
           <Route exact={true} path="/signup" element={<SignUp />} />
+          <Route exact={true} path="/aboutus" element={<AboutUs />} />
           <Route
             exact={true}
             path="/forgotpassword"
