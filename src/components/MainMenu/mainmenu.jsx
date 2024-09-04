@@ -1,33 +1,33 @@
-import styles from "../MainMenu/mainmenu.module.css";
+import "../MainMenu/mainmenu.css";
 import React from "react";
 import MenuItems from "../MenuItems/menuitems";
 
 const MainMenu = () => {
   return (
     <>
-      <div className={styles.mainmenu}>
-        <div className={styles.meinmenuUp}>
-          <div className={styles.mainmenuUpLeft}>
+      <div className="mainmenu">
+        <div className="meinmenuUp">
+          <div className="mainmenuUpLeft">
             <h4>Today's Trend</h4>
           </div>
-          <div className={styles.mainmenuUpRight}>
+          <div className="mainmenuUpRight">
             <h4>More</h4>
           </div>
         </div>
-        <div className={styles.meinmenuDown}>
+        <div className="meinmenuDown">
           <MenuItems />
         </div>
       </div>
-      <div className={styles.mainmenu}>
-        <div className={styles.meinmenuUp}>
-          <div className={styles.mainmenuUpLeft}>
+      <div className="mainmenu">
+        <div className="meinmenuUp">
+          <div className="mainmenuUpLeft">
             <h4>Today's Trend</h4>
           </div>
-          <div className={styles.mainmenuUpRight}>
+          <div className="mainmenuUpRight">
             <h4>More</h4>
           </div>
         </div>
-        <div className={styles.meinmenuDown}>
+        <div className="meinmenuDown">
           <MenuItems />
         </div>
       </div>

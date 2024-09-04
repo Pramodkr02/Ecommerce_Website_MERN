@@ -1,9 +1,8 @@
-/* .menuItems {
+.menuItems {
   width: 100%;
   margin: 0 auto;
-  height: 28vh !important;
-  background-color: aqua;
-} */
+  height: 28vh;
+}
 
 .swiper {
   width: 100% !important;
