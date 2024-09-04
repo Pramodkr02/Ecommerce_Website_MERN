@@ -1,0 +1,63 @@
+.NewLaunch {
+  width: 98.4%;
+  margin: 0 auto;
+  height: 450px;
+  margin-top: 25px;
+  border: 2px solid red;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 6px;
+}
+
+.NewLaunch .newlaunchLeft {
+  height: 95%;
+  width: 20%;
+  background-color: blueviolet;
+  border-radius: 6px;
+}
+.NewLaunch .newlaunchMid {
+  height: 95%;
+  width: 55%;
+
+  border-radius: 6px;
+}
+.NewLaunch .newlaunchMid .swiper {
+  width: 100% !important;
+  height: 100% !important;
+}
+.NewLaunch .newlaunchMid .Slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+.NewLaunch .newlaunchRight {
+  height: 95%;
+  width: 20%;
+  background-color: blueviolet;
+  border-radius: 6px;
+}
+
+.NewLaunch .newlaunchMid .Slide1 {
+  background-image: url("https://img.freepik.com/premium-vector/fashion-week-banner-template-promotion-fashion-banner_122059-223.jpg?size=626&ext=jpg&ga=GA1.1.2114228154.1725182854&semt=ais_hybrid");
+}
+.NewLaunch .newlaunchMid .Slide2 {
+  background-image: url("https://img.freepik.com/premium-psd/headphone-banner-templates_1146070-76.jpg?size=626&ext=jpg&ga=GA1.1.2114228154.1725182854&semt=ais_hybrid");
+}
+.NewLaunch .newlaunchMid .Slide3 {
+  background-image: url("https://img.freepik.com/free-vector/flat-design-fashion-stylist-webinar_23-2150007858.jpg?ga=GA1.1.2114228154.1725182854&semt=ais_hybrid");
+}
+.NewLaunch .newlaunchMid .Slide4 {
+  background-image: url("https://img.freepik.com/premium-psd/poster-fashion-brand-called-fashion-business_1149671-92.jpg?size=626&ext=jpg&ga=GA1.1.2114228154.1725182854&semt=ais_hybrid");
+}
+.NewLaunch .newlaunchMid .Slide5 {
+  background-image: url("https://img.freepik.com/premium-psd/exclusive-mobile-sale-template-facebook-cover-web-banner_892970-10210.jpg?ga=GA1.1.2114228154.1725182854&semt=ais_hybrid");
+}
+.NewLaunch .newlaunchMid .Slide6 {
+  background-image: url("https://img.freepik.com/premium-vector/back-school-web-banner-with-stack-books-alarm-clock-graduation-cap-flying-books-surround_155957-1967.jpg?ga=GA1.1.2114228154.1725182854&semt=ais_hybrid");
+}
+.NewLaunch .newlaunchMid .Slide7 {
+  background-image: url("https://img.freepik.com/premium-vector/banner-template-fresh-vegetable-fruit_456052-565.jpg?size=626&ext=jpg&ga=GA1.1.2114228154.1725182854&semt=ais_hybrid");
+}

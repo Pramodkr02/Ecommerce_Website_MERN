@@ -10,11 +10,14 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Navigation } from "swiper/modules";
+import ProductItem from "../ProductItems/index";
+import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
 
 export default function MenuItems() {
   return (
     <>
-      <div className=".menuItems"></div>
+      <div className="menuItems"></div>
       <Swiper
         navigation={true}
         modules={[Navigation]}
@@ -23,13 +26,19 @@ export default function MenuItems() {
         spaceBetween={10}
       >
         <SwiperSlide>
-          <div className="slide slide1">1</div>
+          <div className="slide slide1">
+            <div className="view">
+              <Link to="/login">View</Link>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="slide slide2">1</div>
+          <div className="slide slide2">
+            <Link to="/login"></Link>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="slide slide3">1</div>
+          <div className="slide slide3"></div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="slide slide4">1</div>

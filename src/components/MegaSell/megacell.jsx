@@ -9,8 +9,8 @@ const MegaSell = () => {
           <h1>Mega discount Sell </h1>
         </div>
         <div className="megasellDown">
-          <div className="megasellDownRight">megasellDownRight</div>
-          <div className="megasellDownLeft">megasellDownLeft</div>
+          <div className="megasellDownRight"></div>
+          <div className="megasellDownLeft"></div>
         </div>
       </div>
     </>

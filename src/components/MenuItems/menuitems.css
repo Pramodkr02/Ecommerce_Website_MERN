@@ -1,9 +1,9 @@
-.menuItems {
+/* .menuItems {
   width: 100%;
   margin: 0 auto;
   height: 28vh !important;
   background-color: aqua;
-}
+} */
 
 .swiper {
   width: 100% !important;
@@ -16,6 +16,24 @@
   background-position: center !important;
   height: 100% !important;
   cursor: pointer;
+  width: 100%;
+  border: 1px solid red;
+}
+.view {
+  height: 16px;
+  width: 8px;
+  background-color: brown;
+}
+
+.slide .view a {
+  text-decoration: none;
+}
+
+.menuItems {
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .slide1 {
@@ -37,7 +55,7 @@
   background-image: url("https://image-marketing.s3.ap-south-1.amazonaws.com/showcase-2024/pink-navratri/Showcase_01.jpg");
 }
 .slide7 {
-  background-image: url("https://assets0.mirraw.com/banner_sliders/11436/Ganesh-Chaturthi-Dom-27_main_webp.webp?1724755682") !important;
+  background-image: url("https://assets0.mirraw.com/banner_sliders/11436/Ganesh-Chaturthi-Dom-27_main_webp.webp?1724755682");
 }
 .slide8 {
   background-image: url("https://assets0.mirraw.com/banner_sliders/11428/Saree-Banner-20Aug_%281%29_main_webp.webp?1724163489");

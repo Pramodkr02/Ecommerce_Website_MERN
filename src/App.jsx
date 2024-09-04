@@ -8,6 +8,7 @@ import Login from "./Pages/Login/login";
 import SignUp from "./Pages/SignUp/signup";
 import ForgotPassword from "./Pages/ForgotPassword/forgotpassword";
 import AboutUs from "./Pages/AboutUs/aboutus";
+import MyAccount from "./Pages/MyAccount/myaccount";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
             path="/forgotpassword"
             element={<ForgotPassword />}
           />
+          <Route exact={true} path="/myaccount" element={<MyAccount />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -83,7 +83,7 @@ const NavBar = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link>
+                      <Link to="/myaccount">
                         <Button>My Account</Button>
                       </Link>
                     </li>

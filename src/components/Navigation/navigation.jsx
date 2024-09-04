@@ -422,7 +422,7 @@ const Navigation = () => {
                 <FaMicroblog /> &nbsp; Pages
               </Link>
               <div className="submenu shadow">
-                <Link>
+                <Link to="/myaccount">
                   <Button>My Account</Button>
                 </Link>
                 <Link to="/login">
