@@ -1,0 +1,188 @@
+.Nav-container {
+  width: 98.3%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+  margin-top: 9px;
+}
+.Nav-container .navPart1 {
+  width: 25%;
+}
+
+.Nav-container .navPart2 {
+  width: 75%;
+  justify-content: space-around;
+}
+.navPart2 .list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .allCatTab {
+  background: #2bbef9;
+  padding: 10px 40px !important;
+  border-radius: 30px;
+}
+nav .allCatTab * {
+  color: #fff;
+}
+nav .allCatTab:hover {
+  background: #2bbef9;
+}
+nav .allCatTab .text {
+  font-weight: 600;
+  /* margin-left: 6px;
+  margin-right: 6px; */
+}
+nav .allCatTab .icon1 svg {
+  font-size: 20px !important;
+  position: absolute;
+  left: 8px;
+  top: 11px;
+}
+
+nav .allCatTab .icon2 svg {
+  font-size: 20px !important;
+  position: absolute;
+  right: 8px;
+  top: 11px;
+}
+nav .navPart2 ul {
+  margin-bottom: 0px;
+}
+nav .navPart2 ul li {
+  padding-bottom: 10px !important;
+}
+nav .navPart2 ul li a {
+  font-size: 15px !important;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding: 10px 9px;
+  transition: all 0.2s ease-in-out;
+}
+nav .navPart2 ul li a svg {
+  font-size: 20px !important;
+}
+nav .navPart2 ul li a:hover {
+  background: #f0faff;
+  color: #2bbef9;
+}
+nav .navPart2 ul li {
+  position: relative;
+  padding-bottom: 20px;
+}
+nav .navPart2 ul li .submenu {
+  position: absolute;
+  top: 150%;
+  left: 0px;
+  min-width: 200px;
+  background: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.2s ease-in-out;
+  z-index: 100;
+}
+
+nav .navPart2 ul li .submenu a {
+  display: block;
+  width: 100%;
+  padding: 0px !important;
+}
+
+nav .navPart2 ul li .submenu a button {
+  width: 100%;
+  justify-content: flex-start !important;
+  border-radius: 0px !important;
+  color: black;
+  font-weight: 600;
+  text-transform: capitalize;
+  column-gap: 5px;
+  row-gap: 0px !important;
+}
+nav .navPart2 ul li:hover .submenu {
+  opacity: 1;
+  visibility: inherit;
+  top: 95%;
+}
+
+nav .navPart1 .sidebarNav {
+  width: 200px;
+  height: auto;
+  opacity: 0;
+  background: #fff;
+  position: absolute;
+  top: 140%;
+  left: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 0px;
+  transition: all 0.2s;
+  visibility: hidden;
+  z-index: 100;
+}
+nav .navPart1.sidebarNav.open {
+  height: 100%;
+  opacity: 1;
+  visibility: inherit;
+  height: auto;
+}
+nav .navPart1 .sidebarNav ul li {
+  width: 100%;
+  list-style: none;
+  margin-left: -20px;
+  padding: 0px 15px;
+}
+nav .navPart1 .sidebarNav ul button {
+  color: #000;
+  width: 100%;
+  justify-content: flex-start;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 15px;
+}
+nav .navPart1 .sidebarNav ul button:hover {
+  background: transparent !important;
+}
+nav .navPart1 .sidebarNav ul li span {
+  padding-right: 5px;
+}
+nav .navPart1 .sidebarNav ul li span svg {
+  font-size: 18px;
+}
+nav .navPart1 .sidebarNav ul li {
+  position: static;
+}
+
+nav .navPart1 .sidebarNav ul li .submenu {
+  position: absolute;
+  top: 0.1px;
+  left: 110%;
+  width: 250px;
+  height: 100%;
+  background: #fff;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+nav .navPart1 .sidebarNav ul li .submenu button {
+  border-radius: 0px !important;
+}
+nav .navPart1 .sidebarNav ul li:hover .submenu {
+  opacity: 1;
+  visibility: inherit;
+  left: 100%;
+  top: 0.05px;
+  padding: 20px;
+}
+.angle-fonts {
+  position: absolute;
+  top: 30%;
+  right: -25px;
+}

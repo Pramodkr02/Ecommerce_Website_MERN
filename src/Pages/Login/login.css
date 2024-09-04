@@ -1,4 +1,4 @@
-.container {
+.LoginContainer {
   text-align: center;
   justify-content: center;
   display: flex;
@@ -6,17 +6,16 @@
   height: 100vh;
 }
 
-.loginForm {
+.LoginContainer .loginForm {
   width: 30%;
   position: relative;
-  top: 50%;
-
   padding: 20px;
   border: 1px solid #ccc;
   background-color: #f2eeee;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
+
 form {
   text-align: center;
 }
@@ -46,6 +45,11 @@ form {
 .loginForm .opt-rst-psrd {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.loginForm .opt-rst-psrd .checkbx .rembme {
+  padding-left: 6px;
 }
 .loginForm .dont-act a {
   text-decoration: none;

@@ -81,6 +81,7 @@
   padding-left: 20px;
   text-align: center;
   cursor: pointer;
+  text-transform: capitalize;
 }
 
 .headerTabs {
@@ -107,6 +108,7 @@
 .navItems-list {
   padding-left: 10px;
 }
+
 .navIcon {
   margin-top: 5px;
 }
@@ -137,6 +139,6 @@
   background: #48cae4;
   margin-right: 0.025px;
   color: #9f86c0;
-  /* transition: margin-left 0.2s ease; */
+  transition: margin-left 0.2s ease;
   border-radius: 7px;
 }

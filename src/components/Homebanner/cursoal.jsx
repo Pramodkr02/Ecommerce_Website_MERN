@@ -14,7 +14,7 @@ import "swiper/css/pagination";
 const Cursoal = () => {
   return (
     <>
-      <div className="container">
+      <div className="cursolContainer">
         <Swiper
           navigation={true}
           modules={[Navigation, Pagination, Autoplay]}

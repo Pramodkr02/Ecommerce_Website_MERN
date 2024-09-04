@@ -1,7 +1,7 @@
 .ViewRecent {
   width: 98.4%;
   margin: 0 auto;
-  height: 250px;
+  height: 350px;
   margin-top: 10px;
 
   display: block;
@@ -67,6 +67,21 @@
   background-image: url("https://assets0.mirraw.com/banner_sliders/11073/PL-Banner_%281%29_main_webp.webp?1724220152");
 }
 .slide12 {
+  background-image: url("https://image-marketing.s3.ap-south-1.amazonaws.com/showcase-2024/pink-navratri/Showcase_01.jpg");
+}
+.slide13 {
+  background-image: url("https://assets0.mirraw.com/banner_sliders/11428/Saree-Banner-20Aug_%281%29_main_webp.webp?1724163489");
+}
+.slide14 {
+  background-image: url("https://assets0.mirraw.com/banner_sliders/11073/PL-Banner_%281%29_main_webp.webp?1724220152");
+}
+.slide15 {
+  background-image: url("https://assets0.mirraw.com/banner_sliders/11138/Set-to-impres-DESK_main_webp.webp?1724233287");
+}
+.slide16 {
+  background-image: url("https://assets0.mirraw.com/banner_sliders/11073/PL-Banner_%281%29_main_webp.webp?1724220152");
+}
+.slide17 {
   background-image: url("https://image-marketing.s3.ap-south-1.amazonaws.com/showcase-2024/pink-navratri/Showcase_01.jpg");
 }
 .swiper-button-next:after {

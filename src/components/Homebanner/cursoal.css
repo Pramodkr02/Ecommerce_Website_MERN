@@ -1,16 +1,16 @@
-.container {
+.cursolContainer {
   width: 100%;
   margin: 0 auto;
   height: 55vh !important;
   max-width: 1534px;
 }
 
-.container .swiper {
+.cursolContainer .swiper {
   width: 100% !important;
   height: 100% !important;
 }
 
-.slide {
+.cursolContainer.slide {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

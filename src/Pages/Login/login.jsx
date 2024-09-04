@@ -6,7 +6,7 @@ import { Button } from "@mui/material";
 const Login = () => {
   return (
     <>
-      <div className="container">
+      <div className="LoginContainer">
         <form className="loginForm">
           <h2>XXXXXXXXXX</h2>
           <h3>Welcome Back !</h3>
@@ -20,8 +20,10 @@ const Login = () => {
           </div>
           <div className="opt-rst-psrd">
             <div className="checkbx">
-              <input type="checkbox" />
-              Remember me
+              <div>
+                <input type="checkbox" />
+              </div>
+              <div className="rembme">Remember me</div>
             </div>
             <div>
               <Link to="/forgotpassword">Forgot Password</Link>
@@ -29,7 +31,9 @@ const Login = () => {
           </div>
           <div className="div">
             <span>
-              <Button type="submit">Login</Button>
+              <Link to="/">
+                <Button type="submit">Login</Button>
+              </Link>
             </span>
           </div>
           <h5 className="dont-act">

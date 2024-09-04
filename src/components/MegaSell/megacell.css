@@ -1,21 +1,44 @@
 .MegaSell {
   width: 98.4%;
   margin: 0 auto;
-  height: 550px;
+  height: 450px;
   margin-top: 10px;
   display: block;
   justify-content: space-between;
 }
 .MegaSell .megasellUp {
   width: 100%;
-  height: 70px;
-  background-color: aqua;
+  height: 16%;
+  background: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding-top: 10px;
+  border-radius: 6px;
 }
 .MegaSell .megasellUp h1 {
   text-transform: uppercase;
   font-weight: 700;
+}
+.megasellDown {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  width: 100%;
+  height: 84%;
+}
+.megasellDown .megasellDownRight {
+  width: 47%;
+  height: 100%;
+  background-color: aquamarine;
+  border-radius: 6px;
+}
+.megasellDown .megasellDownLeft {
+  width: 47%;
+  height: 100%;
+  background-color: rgb(197, 240, 39);
+  border-radius: 6px;
 }

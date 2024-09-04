@@ -22,7 +22,7 @@ const ViewRecent = () => {
             navigation={true}
             modules={[Navigation]}
             className="mySwiper"
-            slidesPerView={10}
+            slidesPerView={8}
             spaceBetween={10}
           >
             <SwiperSlide>
@@ -92,22 +92,6 @@ const ViewRecent = () => {
             <SwiperSlide>
               {" "}
               <div className="Slide slide17"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <div className="Slide slide18"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <div className="Slide slide19"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <div className="Slide slide20"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <div className="Slide slide21"></div>
             </SwiperSlide>
           </Swiper>
         </div>

@@ -17,6 +17,7 @@ import { FiSettings } from "react-icons/fi";
 import { VscSignOut } from "react-icons/vsc";
 import { ClickAwayListener } from "@mui/base/ClickAwayListener";
 import NavBar from "../nav/navBar";
+import Navigation from "../Navigation/navigation";
 
 const Header = () => {
   const [isOpenDropDown, setisOpenDropDown] = useState(false);
@@ -123,7 +124,8 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <NavBar />
+      {/* <NavBar /> */}
+      <Navigation />
     </>
   );
 };

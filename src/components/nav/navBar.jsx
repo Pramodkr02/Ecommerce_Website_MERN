@@ -63,45 +63,7 @@ const NavBar = () => {
           <li>Men</li>
           <li>Women</li>
           <li>Kid's</li>
-          {/* <li>
-            <span className="mega-menu-res" onClick={MegaMenuRes}>
-              Mega Menu
-            </span>
-            <HiChevronDown />
-            {isMegaMenuOpenSelect && (
-              <div className="mega-menu-item">
-                <div className="mega-menu-left">
-                  <ul className="mega-items">
-                    <li>New Bradend cloths</li>
-                    <li>New Bradend cloths</li>
-                    <li>New Bradend cloths</li>
-                    <li>New Bradend cloths</li>
-                    <li>New Bradend cloths</li>
-                  </ul>
-                </div>
-                <div className="mega-menu-center">
-                  <ul className="mega-items">
-                    <li>New Bradend cloths</li>
-                    <li>New Bradend cloths</li>
-                    <li>New Bradend cloths</li>
-                    <li>New Bradend cloths</li>
-                    <li>New Bradend cloths</li>
-                    <li>New Bradend cloths</li>
-                  </ul>
-                </div>
-                <div className="mega-menu-right">
-                  <ul className="mega-items">
-                    <li>New Bradend cloths</li>
-                    <li>New Bradend cloths</li>
-                    <li>New Bradend cloths</li>
-                    <li>New Bradend cloths</li>
-                    <li>New Bradend cloths</li>
-                    <li>New Bradend cloths</li>
-                  </ul>
-                </div>
-              </div>
-            )}
-          </li> */}
+
           <li>Electronics</li>
           <ClickAwayListener onClickAway={handleClickAway}>
             <li className="page-res">
@@ -110,11 +72,6 @@ const NavBar = () => {
               {isPageOpenSelect && (
                 <div className="drop-down-menu">
                   <ul className="drop-down-menu-list">
-                    {/* {dropMenudata.map((item) => (
-                      <li key={item}>
-                        <Link to="/login">{item}</Link>
-                      </li>
-                    ))} */}
                     <li>
                       <Link to="/aboutus">
                         <Button>About Us</Button>
