@@ -4,6 +4,13 @@
   display: flex;
   align-items: center;
   height: 100vh;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-image: url("https://img.freepik.com/premium-photo/two-shopping-carts-with-yellow-cubes-blue-background_1174990-36328.jpg?size=626&ext=jpg&ga=GA1.1.2114228154.1725182854&semt=ais_hybrid");
+}
+.LoginContainer svg {
+  opacity: 0.3;
 }
 
 .LoginContainer .loginForm {
