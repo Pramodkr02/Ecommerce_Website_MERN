@@ -1,6 +1,7 @@
 import "../MainMenu/mainmenu.css";
 import React from "react";
-import MenuItems from "../MenuItems/menuitems";
+
+import Catogeroies from "../Catogeroies/catogeroies";
 
 const MainMenu = () => {
   return (
@@ -11,11 +12,12 @@ const MainMenu = () => {
             <h4>Today's Trend</h4>
           </div>
           <div className="mainmenuUpRight">
-            <h4>More</h4>
+            <h4></h4>
           </div>
         </div>
         <div className="meinmenuDown">
-          <MenuItems />
+          {/* <MenuItems /> */}
+          <Catogeroies />
         </div>
       </div>
       <div className="mainmenu">
@@ -27,9 +29,7 @@ const MainMenu = () => {
             <h4>More</h4>
           </div>
         </div>
-        <div className="meinmenuDown">
-          <MenuItems />
-        </div>
+        <div className="meinmenuDown">{/* <MenuItems /> */}</div>
       </div>
     </>
   );

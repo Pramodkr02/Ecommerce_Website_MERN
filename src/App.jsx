@@ -9,6 +9,7 @@ import SignUp from "./Pages/SignUp/signup";
 import ForgotPassword from "./Pages/ForgotPassword/forgotpassword";
 import AboutUs from "./Pages/AboutUs/aboutus";
 import MyAccount from "./Pages/MyAccount/myaccount";
+import ShopingSection from "./components/ShopingSection/shopingsection";
 
 const App = () => {
   return (
@@ -27,6 +28,11 @@ const App = () => {
             element={<ForgotPassword />}
           />
           <Route exact={true} path="/myaccount" element={<MyAccount />} />
+          <Route
+            exact={true}
+            path="/shopingsection"
+            element={<ShopingSection />}
+          />
         </Routes>
       </BrowserRouter>
     </>

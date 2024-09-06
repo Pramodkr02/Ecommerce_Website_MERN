@@ -1,0 +1,72 @@
+.Catogeroies {
+  width: 100%;
+  margin: 0 auto;
+  height: 28vh !important;
+}
+.swiper {
+  width: 100% !important;
+  height: 100% !important;
+}
+.slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  border: 1px solid black;
+}
+.container {
+  height: 100% !important;
+  width: 100% !important;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.containerUp {
+  height: 75%;
+  width: 100%;
+  padding: 5px;
+}
+.containerUp img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.containerDown {
+  height: 25%;
+  width: 100%;
+  padding: 0px 8px;
+  text-align: center;
+}
+.containerDown p {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0px;
+}
+.viewMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.viewBox {
+  height: 48px;
+  width: 90px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 5px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.viewBox .more {
+  font-size: 20px;
+  font-weight: 500;
+}
+.viewBox:hover {
+  background-color: blue;
+  color: white;
+}

@@ -1,4 +1,4 @@
-import "../ViewRecent/viewrecent.css";
+import Styles from "../ViewRecent/viewrecent.module.css";
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,11 +13,11 @@ import { Navigation } from "swiper/modules";
 const ViewRecent = () => {
   return (
     <>
-      <div className="ViewRecent">
-        <div className="RecentviewTop">
+      <div className={Styles.ViewRecent}>
+        <div className={Styles.RecentviewTop}>
           <h4>Recently Viewed </h4>
         </div>
-        <div className="RecentviewDown">
+        <div className={Styles.RecentviewDown}>
           <Swiper
             navigation={true}
             modules={[Navigation]}
@@ -27,71 +27,203 @@ const ViewRecent = () => {
           >
             <SwiperSlide>
               {" "}
-              <div className="Slide slide1"></div>
+              <div className={`${Styles.Slide} ${Styles.slide1}`}>
+                <div className={Styles.container}>
+                  <div className={Styles.containerUp}>
+                    <img
+                      src="https://img.freepik.com/free-vector/realistic-golden-wedding-rings-with-shadow_52683-62983.jpg?size=626&ext=jpg&ga=GA1.1.2114228154.1725182854&semt=ais_hybrid"
+                      alt=""
+                    />
+                  </div>
+                  <div className={Styles.containerDown}>
+                    <p>Women's Ring</p>
+                    <div className={Styles.price}>
+                      <div className={Styles.currPrice}>$1599</div>
+                      <div className={Styles.oldPrice}>2399</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <div className="Slide slide2"></div>
+              <div className={`${Styles.Slide} ${Styles.slide1}`}>
+                <div className={Styles.container}>
+                  <div className={Styles.containerUp}>
+                    <img
+                      src="https://img.freepik.com/free-vector/realistic-golden-wedding-rings-with-shadow_52683-62983.jpg?size=626&ext=jpg&ga=GA1.1.2114228154.1725182854&semt=ais_hybrid"
+                      alt=""
+                    />
+                  </div>
+                  <div className={Styles.containerDown}>
+                    <p>Women's Ring</p>
+                    <div className={Styles.price}>
+                      <div className={Styles.currPrice}>$1599</div>
+                      <div className={Styles.oldPrice}>2399</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <div className="Slide slide3"></div>
+              <div className={`${Styles.Slide} ${Styles.slide1}`}>
+                <div className={Styles.container}>
+                  <div className={Styles.containerUp}>
+                    <img
+                      src="https://img.freepik.com/free-vector/realistic-golden-wedding-rings-with-shadow_52683-62983.jpg?size=626&ext=jpg&ga=GA1.1.2114228154.1725182854&semt=ais_hybrid"
+                      alt=""
+                    />
+                  </div>
+                  <div className={Styles.containerDown}>
+                    <p>Women's Ring</p>
+                    <div className={Styles.price}>
+                      <div className={Styles.currPrice}>$1599</div>
+                      <div className={Styles.oldPrice}>2399</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <div className="Slide slide4"></div>
+              <div className={`${Styles.Slide} ${Styles.slide1}`}>
+                <div className={Styles.container}>
+                  <div className={Styles.containerUp}>
+                    <img
+                      src="https://img.freepik.com/free-vector/realistic-golden-wedding-rings-with-shadow_52683-62983.jpg?size=626&ext=jpg&ga=GA1.1.2114228154.1725182854&semt=ais_hybrid"
+                      alt=""
+                    />
+                  </div>
+                  <div className={Styles.containerDown}>
+                    <p>Women's Ring</p>
+                    <div className={Styles.price}>
+                      <div className={Styles.currPrice}>$1599</div>
+                      <div className={Styles.oldPrice}>2399</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <div className="Slide slide5"></div>
+              <div className={`${Styles.Slide} ${Styles.slide1}`}>
+                <div className={Styles.container}>
+                  <div className={Styles.containerUp}>
+                    <img
+                      src="https://img.freepik.com/free-vector/realistic-golden-wedding-rings-with-shadow_52683-62983.jpg?size=626&ext=jpg&ga=GA1.1.2114228154.1725182854&semt=ais_hybrid"
+                      alt=""
+                    />
+                  </div>
+                  <div className={Styles.containerDown}>
+                    <p>Women's Ring</p>
+                    <div className={Styles.price}>
+                      <div className={Styles.currPrice}>$1599</div>
+                      <div className={Styles.oldPrice}>2399</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <div className="Slide slide6"></div>
+              <div className={`${Styles.Slide} ${Styles.slide1}`}>
+                <div className={Styles.container}>
+                  <div className={Styles.containerUp}>
+                    <img
+                      src="https://img.freepik.com/free-vector/realistic-golden-wedding-rings-with-shadow_52683-62983.jpg?size=626&ext=jpg&ga=GA1.1.2114228154.1725182854&semt=ais_hybrid"
+                      alt=""
+                    />
+                  </div>
+                  <div className={Styles.containerDown}>
+                    <p>Women's Ring</p>
+                    <div className={Styles.price}>
+                      <div className={Styles.currPrice}>$1599</div>
+                      <div className={Styles.oldPrice}>2399</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <div className="Slide slide7"></div>
+              <div className={`${Styles.Slide} ${Styles.slide1}`}>
+                <div className={Styles.container}>
+                  <div className={Styles.containerUp}>
+                    <img
+                      src="https://img.freepik.com/free-vector/realistic-golden-wedding-rings-with-shadow_52683-62983.jpg?size=626&ext=jpg&ga=GA1.1.2114228154.1725182854&semt=ais_hybrid"
+                      alt=""
+                    />
+                  </div>
+                  <div className={Styles.containerDown}>
+                    <p>Women's Ring</p>
+                    <div className={Styles.price}>
+                      <div className={Styles.currPrice}>$1599</div>
+                      <div className={Styles.oldPrice}>2399</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <div className="Slide slide8"></div>
+              <div className={`${Styles.Slide} ${Styles.slide1}`}>
+                <div className={Styles.container}>
+                  <div className={Styles.containerUp}>
+                    <img
+                      src="https://img.freepik.com/free-vector/realistic-golden-wedding-rings-with-shadow_52683-62983.jpg?size=626&ext=jpg&ga=GA1.1.2114228154.1725182854&semt=ais_hybrid"
+                      alt=""
+                    />
+                  </div>
+                  <div className={Styles.containerDown}>
+                    <p>Women's Ring</p>
+                    <div className={Styles.price}>
+                      <div className={Styles.currPrice}>$1599</div>
+                      <div className={Styles.oldPrice}>2399</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <div className="Slide slide9"></div>
+              <div className={`${Styles.Slide} ${Styles.slide1}`}>
+                <div className={Styles.container}>
+                  <div className={Styles.containerUp}>
+                    <img
+                      src="https://img.freepik.com/free-vector/realistic-golden-wedding-rings-with-shadow_52683-62983.jpg?size=626&ext=jpg&ga=GA1.1.2114228154.1725182854&semt=ais_hybrid"
+                      alt=""
+                    />
+                  </div>
+                  <div className={Styles.containerDown}>
+                    <p>Women's Ring</p>
+                    <div className={Styles.price}>
+                      <div className={Styles.currPrice}>$1599</div>
+                      <div className={Styles.oldPrice}>2399</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <div className="Slide slide10"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <div className="Slide slide11"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <div className="Slide slide12"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <div className="Slide slide13"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <div className="Slide slide14"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <div className="Slide slide15"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <div className="Slide slide16"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <div className="Slide slide17"></div>
+              <div className={`${Styles.Slide} ${Styles.slide1}`}>
+                <div className={Styles.container}>
+                  <div className={Styles.containerUp}>
+                    <img
+                      src="https://img.freepik.com/free-vector/realistic-golden-wedding-rings-with-shadow_52683-62983.jpg?size=626&ext=jpg&ga=GA1.1.2114228154.1725182854&semt=ais_hybrid"
+                      alt=""
+                    />
+                  </div>
+                  <div className={Styles.containerDown}>
+                    <p>Women's Ring</p>
+                    <div className={Styles.price}>
+                      <div className={Styles.currPrice}>$1599</div>
+                      <div className={Styles.oldPrice}>2399</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </SwiperSlide>
           </Swiper>
         </div>

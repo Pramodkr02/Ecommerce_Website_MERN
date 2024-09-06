@@ -5,12 +5,12 @@
   max-width: 1534px;
 }
 
-.cursolContainer .swiper {
+.swiper {
   width: 100% !important;
   height: 100% !important;
 }
 
-.cursolContainer.slide {
+.slide {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,12 +35,12 @@
 .slide6 {
   background-image: url("https://image-marketing.s3.ap-south-1.amazonaws.com/showcase-2024/pink-navratri/Showcase_01.jpg");
 }
-.swiper-button-next:after {
+.cursolContainer .swiper-button-next:after {
   content: "\f138" !important;
   font-family: fontAwesome !important;
   font-weight: bold;
 }
-.swiper-button-prev:after {
+.cursolContainer .swiper-button-prev:after {
   content: "\f137" !important;
   font-family: fontAwesome !important;
   font-weight: bold;
