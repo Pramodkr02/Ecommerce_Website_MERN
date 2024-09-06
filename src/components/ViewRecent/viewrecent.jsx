@@ -2,6 +2,7 @@ import Styles from "../ViewRecent/viewrecent.module.css";
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { FaCircleArrowRight } from "react-icons/fa6";
 
 // Import Swiper styles
 import "swiper/css";
@@ -47,7 +48,7 @@ const ViewRecent = () => {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <div className={`${Styles.Slide} ${Styles.slide1}`}>
+              <div className={Styles.Slide}>
                 <div className={Styles.container}>
                   <div className={Styles.containerUp}>
                     <img
@@ -220,6 +221,19 @@ const ViewRecent = () => {
                     <div className={Styles.price}>
                       <div className={Styles.currPrice}>$1599</div>
                       <div className={Styles.oldPrice}>2399</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className={`${Styles.Lastslide} ${Styles.slide9}`}>
+              {" "}
+              <div className={Styles.container}>
+                <div className={Styles.viewMore}>
+                  <div className={Styles.viewBox}>
+                    <div className={Styles.more}>More</div>
+                    <div>
+                      <FaCircleArrowRight />
                     </div>
                   </div>
                 </div>

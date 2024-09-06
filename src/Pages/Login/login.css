@@ -78,3 +78,6 @@ form {
 .backToHome a:hover {
   color: #000000;
 }
+.FaGoogle svg {
+  margin: 0px 8px 4px 0px;
+}

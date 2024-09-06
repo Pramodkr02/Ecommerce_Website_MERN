@@ -83,3 +83,35 @@
   font-family: fontAwesome !important;
   font-weight: bold;
 }
+
+.viewMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.viewBox {
+  height: 48px;
+  width: 90px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 5px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.viewBox .more {
+  font-size: 20px;
+  font-weight: 500;
+}
+.viewBox:hover {
+  background-color: blue;
+  color: white;
+}
+.container {
+  height: 100% !important;
+  width: 100% !important;
+  cursor: pointer;
+}

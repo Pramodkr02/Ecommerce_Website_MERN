@@ -2,6 +2,8 @@ import React from "react";
 import "../Login/login.css";
 import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
+import { FaGoogle } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 
 const Login = () => {
   return (
@@ -43,10 +45,20 @@ const Login = () => {
           <h6>or</h6>
           <hr />
           <span>
-            <Button>Login with google</Button>
+            <Button>
+              <span className="FaGoogle">
+                <FaGoogle />
+              </span>
+              <span>Login with google</span>
+            </Button>
           </span>
           <span>
-            <Button className="byn">Login with instagram</Button>
+            <Button className="byn">
+              <span className="FaGoogle">
+                <FaInstagramSquare />
+              </span>
+              <span>Login with instagram</span>
+            </Button>
           </span>
           <span>
             <h5 className="backToHome">

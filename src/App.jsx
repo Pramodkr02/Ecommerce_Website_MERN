@@ -10,6 +10,7 @@ import ForgotPassword from "./Pages/ForgotPassword/forgotpassword";
 import AboutUs from "./Pages/AboutUs/aboutus";
 import MyAccount from "./Pages/MyAccount/myaccount";
 import ShopingSection from "./components/ShopingSection/shopingsection";
+import ProductDetail from "./components/ProductDetails/productdetail";
 
 const App = () => {
   return (
@@ -32,6 +33,11 @@ const App = () => {
             exact={true}
             path="/shopingsection"
             element={<ShopingSection />}
+          />
+          <Route
+            exact={true}
+            path="/productdetail"
+            element={<ProductDetail />}
           />
         </Routes>
       </BrowserRouter>
