@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./components/header/header";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/index";
@@ -16,7 +15,6 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        {/* <Header /> */}
         <Routes>
           <Route exact={true} path="/" element={<Home />} />
           <Route exact={true} path="/about" element={<About />} />

@@ -41,12 +41,18 @@
 .containerUp {
   height: 75%;
   width: 100%;
-  padding: 5px;
+  padding: 8px;
 }
 .containerUp img {
   object-fit: contain;
   width: 100%;
   height: 100%;
+  transition: 0.2s all ease-in-out;
+}
+
+.containerUp img:hover {
+  width: 104%;
+  height: 104%;
 }
 .containerDown {
   height: 25%;
