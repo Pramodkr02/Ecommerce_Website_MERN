@@ -8,18 +8,22 @@
 .sectionLeft {
   width: 20%;
   height: 661px;
-  border: 1px solid black;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .sectionRight {
   width: 79%;
   height: 100%;
-  border: 1px solid black;
+
   padding: 8px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   position: relative;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .sectionRightUp {
   width: 100%;
