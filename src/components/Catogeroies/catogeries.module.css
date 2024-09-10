@@ -32,7 +32,7 @@ a {
   object-fit: contain;
   width: 100%;
   height: 100%;
-  transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-out;
 }
 .containerUp img:hover {
   width: 104%;
@@ -71,6 +71,7 @@ a {
   font-size: 20px;
   font-weight: 500;
 }
+
 .viewBox:hover {
   background-color: blue;
   color: white;
