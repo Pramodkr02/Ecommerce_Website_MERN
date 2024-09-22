@@ -18,6 +18,7 @@ import { VscSignOut } from "react-icons/vsc";
 import { ClickAwayListener } from "@mui/base/ClickAwayListener";
 import NavBar from "../nav/navBar";
 import Navigation from "../Navigation/navigation";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [isOpenDropDown, setisOpenDropDown] = useState(false);
@@ -101,7 +102,9 @@ const Header = () => {
               <ul className="dropdownMenu">
                 <li>
                   <RiAccountCircleLine />
-                  <span className="navItems-list">My account</span>
+                  <NavLink to="/myaccount">
+                    <span className="navItems-list">My account</span>
+                  </NavLink>
                 </li>
                 <li>
                   <MdOutlineSpatialTracking />

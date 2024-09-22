@@ -21,7 +21,7 @@ const Catogeroies = () => {
           slidesPerView={6}
           spaceBetween={10}
         >
-          <SwiperSlide className={`${styles.slide} ${styles.slide1}`}>
+          <SwiperSlide className={styles.slide}>
             {" "}
             <div className={styles.container}>
               <Link to="/shopingsection">

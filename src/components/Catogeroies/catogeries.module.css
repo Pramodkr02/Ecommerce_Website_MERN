@@ -1,7 +1,7 @@
 .Catogeroies {
   width: 100%;
   margin: 0 auto;
-  height: 28vh !important;
+  height: 31.1vh !important;
 }
 .swiper {
   width: 100% !important;
@@ -35,8 +35,8 @@ a {
   transition: 0.2s all ease-out;
 }
 .containerUp img:hover {
-  width: 104%;
-  height: 104%;
+  width: 103%;
+  height: 103%;
 }
 .containerDown {
   height: 25%;

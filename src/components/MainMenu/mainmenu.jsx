@@ -29,7 +29,10 @@ const MainMenu = () => {
             <h4>More</h4>
           </div>
         </div>
-        <div className="meinmenuDown">{/* <MenuItems /> */}</div>
+        <div className="meinmenuDown">
+          {/* <MenuItems /> */}
+          <Catogeroies />
+        </div>
       </div>
     </>
   );

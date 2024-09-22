@@ -60,7 +60,7 @@
 }
 .productItem .imagWrapper img {
   transition: all 0.3s ease-in-out;
-  height: 100% t;
+  height: 100%;
   width: 100%;
 }
 .productItem .imagWrapper:hover img {

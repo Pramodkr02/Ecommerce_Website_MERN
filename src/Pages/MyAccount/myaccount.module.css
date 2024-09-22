@@ -1,0 +1,103 @@
+.MyAccount {
+  width: 86%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 15px;
+}
+
+.MyAccountLeft {
+  width: 26%;
+  height: 500px;
+}
+.MyAccountright {
+  width: 72%;
+  height: 670px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 10px;
+}
+.MyAccountLeftTilte {
+  width: 100%;
+  height: 100px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-bottom: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.MyAccountLeftMain {
+  width: 100%;
+  height: 500px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.MyAccountLeftMain .myorder {
+  width: 100%;
+  height: 50px;
+  border-bottom-style: groove;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.MyAccountLeftMain .myorder .myorderLeft {
+  width: 40%;
+  height: 100%;
+  justify-content: space-between;
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+}
+.MyAccountLeftMain .myorder .myorderRight {
+  width: 60%;
+  height: 100%;
+  text-align: end;
+}
+.MyAccountLeftMain .myorder .myorderRight svg {
+  font-size: 22px;
+}
+.MyAccountLeftMain .myorder .myorderLeft svg {
+  font-size: 22px;
+}
+.MyAccountLeftdown {
+  width: 100%;
+  height: 40px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.MyAccountLeftdown span {
+  color: blue;
+  font-weight: 500;
+}
+.TitleLeft {
+  width: 80px;
+  height: 80px;
+}
+
+.TitleRight {
+  width: 75%;
+  height: 100%;
+  padding: 12px;
+}
+
+.TitleName {
+  font-size: 22px;
+  font-weight: 600;
+}
+.TitleLeft img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
