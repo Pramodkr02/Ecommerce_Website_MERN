@@ -1,0 +1,12 @@
+{
+    "name": "Dabur Red Toothpaste",
+    "discription":"Fluoride Free | Helps In Bad Breath Treatment, Cavity Protection, Plaque Removal | For Whole Mouth Health | Power Of 13 Potent Ayurvedic Herbs",
+    "brand":"EMAZING DEALS LLP",
+    "price":"200",
+    "oldPrice":"350",
+    "catName":"wellness",
+    "catId":""
+}
+
+
+stop at cart controller.cat.js
